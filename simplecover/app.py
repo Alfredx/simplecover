@@ -2,7 +2,7 @@ import pyperclip
 import streamlit as st
 from dotenv import load_dotenv
 
-from .llm.generic import generate
+from llm.generic import generate
 
 load_dotenv()
 
